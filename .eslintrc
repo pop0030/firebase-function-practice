@@ -1,12 +1,13 @@
 {
   "parserOptions": {
     // Required for certain syntax usages
-    "ecmaVersion": 6
+    "ecmaVersion": 7
   },
   "plugins": [
     "promise"
   ],
   "extends": "eslint:recommended",
+  "parser": "babel-eslint",
   "rules": {
     // Removed rule "disallow the use of console" from recommended eslint rules
     "no-console": "off",
